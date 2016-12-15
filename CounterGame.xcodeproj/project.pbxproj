@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C496B5691E031A64008D1861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C496B5681E031A64008D1861 /* main.m */; };
+		C496B56C1E031A64008D1861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C496B56B1E031A64008D1861 /* AppDelegate.m */; };
+		C496B56F1E031A64008D1861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496B56E1E031A64008D1861 /* ViewController.m */; };
+		C496B5721E031A64008D1861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496B5701E031A64008D1861 /* Main.storyboard */; };
+		C496B5741E031A64008D1861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C496B5731E031A64008D1861 /* Assets.xcassets */; };
+		C496B5771E031A64008D1861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496B5751E031A64008D1861 /* LaunchScreen.storyboard */; };
+		C496B5821E031A64008D1861 /* CounterGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C496B5811E031A64008D1861 /* CounterGameTests.m */; };
+		C496B58D1E031A65008D1861 /* CounterGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C496B58C1E031A65008D1861 /* CounterGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C496B57E1E031A64008D1861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C496B55C1E031A64008D1861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C496B5631E031A64008D1861;
+			remoteInfo = CounterGame;
+		};
+		C496B5891E031A65008D1861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C496B55C1E031A64008D1861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C496B5631E031A64008D1861;
+			remoteInfo = CounterGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C496B5641E031A64008D1861 /* CounterGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C496B5681E031A64008D1861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C496B56A1E031A64008D1861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C496B56B1E031A64008D1861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C496B56D1E031A64008D1861 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C496B56E1E031A64008D1861 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C496B5711E031A64008D1861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C496B5731E031A64008D1861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C496B5761E031A64008D1861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C496B5781E031A64008D1861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C496B57D1E031A64008D1861 /* CounterGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C496B5811E031A64008D1861 /* CounterGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterGameTests.m; sourceTree = "<group>"; };
+		C496B5831E031A64008D1861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C496B5881E031A65008D1861 /* CounterGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C496B58C1E031A65008D1861 /* CounterGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterGameUITests.m; sourceTree = "<group>"; };
+		C496B58E1E031A65008D1861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C496B5611E031A64008D1861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496B57A1E031A64008D1861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496B5851E031A65008D1861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C496B55B1E031A64008D1861 = {
+			isa = PBXGroup;
+			children = (
+				C496B5661E031A64008D1861 /* CounterGame */,
+				C496B5801E031A64008D1861 /* CounterGameTests */,
+				C496B58B1E031A65008D1861 /* CounterGameUITests */,
+				C496B5651E031A64008D1861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C496B5651E031A64008D1861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C496B5641E031A64008D1861 /* CounterGame.app */,
+				C496B57D1E031A64008D1861 /* CounterGameTests.xctest */,
+				C496B5881E031A65008D1861 /* CounterGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C496B5661E031A64008D1861 /* CounterGame */ = {
+			isa = PBXGroup;
+			children = (
+				C496B56A1E031A64008D1861 /* AppDelegate.h */,
+				C496B56B1E031A64008D1861 /* AppDelegate.m */,
+				C496B56D1E031A64008D1861 /* ViewController.h */,
+				C496B56E1E031A64008D1861 /* ViewController.m */,
+				C496B5701E031A64008D1861 /* Main.storyboard */,
+				C496B5731E031A64008D1861 /* Assets.xcassets */,
+				C496B5751E031A64008D1861 /* LaunchScreen.storyboard */,
+				C496B5781E031A64008D1861 /* Info.plist */,
+				C496B5671E031A64008D1861 /* Supporting Files */,
+			);
+			path = CounterGame;
+			sourceTree = "<group>";
+		};
+		C496B5671E031A64008D1861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C496B5681E031A64008D1861 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C496B5801E031A64008D1861 /* CounterGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C496B5811E031A64008D1861 /* CounterGameTests.m */,
+				C496B5831E031A64008D1861 /* Info.plist */,
+			);
+			path = CounterGameTests;
+			sourceTree = "<group>";
+		};
+		C496B58B1E031A65008D1861 /* CounterGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C496B58C1E031A65008D1861 /* CounterGameUITests.m */,
+				C496B58E1E031A65008D1861 /* Info.plist */,
+			);
+			path = CounterGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C496B5631E031A64008D1861 /* CounterGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C496B5911E031A65008D1861 /* Build configuration list for PBXNativeTarget "CounterGame" */;
+			buildPhases = (
+				C496B5601E031A64008D1861 /* Sources */,
+				C496B5611E031A64008D1861 /* Frameworks */,
+				C496B5621E031A64008D1861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CounterGame;
+			productName = CounterGame;
+			productReference = C496B5641E031A64008D1861 /* CounterGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C496B57C1E031A64008D1861 /* CounterGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C496B5941E031A65008D1861 /* Build configuration list for PBXNativeTarget "CounterGameTests" */;
+			buildPhases = (
+				C496B5791E031A64008D1861 /* Sources */,
+				C496B57A1E031A64008D1861 /* Frameworks */,
+				C496B57B1E031A64008D1861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C496B57F1E031A64008D1861 /* PBXTargetDependency */,
+			);
+			name = CounterGameTests;
+			productName = CounterGameTests;
+			productReference = C496B57D1E031A64008D1861 /* CounterGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C496B5871E031A65008D1861 /* CounterGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C496B5971E031A65008D1861 /* Build configuration list for PBXNativeTarget "CounterGameUITests" */;
+			buildPhases = (
+				C496B5841E031A65008D1861 /* Sources */,
+				C496B5851E031A65008D1861 /* Frameworks */,
+				C496B5861E031A65008D1861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C496B58A1E031A65008D1861 /* PBXTargetDependency */,
+			);
+			name = CounterGameUITests;
+			productName = CounterGameUITests;
+			productReference = C496B5881E031A65008D1861 /* CounterGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C496B55C1E031A64008D1861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel Ayala";
+				TargetAttributes = {
+					C496B5631E031A64008D1861 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3WN2HPYHZR;
+						ProvisioningStyle = Automatic;
+					};
+					C496B57C1E031A64008D1861 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3WN2HPYHZR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C496B5631E031A64008D1861;
+					};
+					C496B5871E031A65008D1861 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3WN2HPYHZR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C496B5631E031A64008D1861;
+					};
+				};
+			};
+			buildConfigurationList = C496B55F1E031A64008D1861 /* Build configuration list for PBXProject "CounterGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C496B55B1E031A64008D1861;
+			productRefGroup = C496B5651E031A64008D1861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C496B5631E031A64008D1861 /* CounterGame */,
+				C496B57C1E031A64008D1861 /* CounterGameTests */,
+				C496B5871E031A65008D1861 /* CounterGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C496B5621E031A64008D1861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496B5771E031A64008D1861 /* LaunchScreen.storyboard in Resources */,
+				C496B5741E031A64008D1861 /* Assets.xcassets in Resources */,
+				C496B5721E031A64008D1861 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496B57B1E031A64008D1861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496B5861E031A65008D1861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C496B5601E031A64008D1861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496B56F1E031A64008D1861 /* ViewController.m in Sources */,
+				C496B56C1E031A64008D1861 /* AppDelegate.m in Sources */,
+				C496B5691E031A64008D1861 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496B5791E031A64008D1861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496B5821E031A64008D1861 /* CounterGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496B5841E031A65008D1861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496B58D1E031A65008D1861 /* CounterGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C496B57F1E031A64008D1861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C496B5631E031A64008D1861 /* CounterGame */;
+			targetProxy = C496B57E1E031A64008D1861 /* PBXContainerItemProxy */;
+		};
+		C496B58A1E031A65008D1861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C496B5631E031A64008D1861 /* CounterGame */;
+			targetProxy = C496B5891E031A65008D1861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C496B5701E031A64008D1861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C496B5711E031A64008D1861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C496B5751E031A64008D1861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C496B5761E031A64008D1861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C496B58F1E031A65008D1861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C496B5901E031A65008D1861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C496B5921E031A65008D1861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3WN2HPYHZR;
+				INFOPLIST_FILE = CounterGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imediayala.CounterGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C496B5931E031A65008D1861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3WN2HPYHZR;
+				INFOPLIST_FILE = CounterGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imediayala.CounterGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C496B5951E031A65008D1861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3WN2HPYHZR;
+				INFOPLIST_FILE = CounterGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imediayala.CounterGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CounterGame.app/CounterGame";
+			};
+			name = Debug;
+		};
+		C496B5961E031A65008D1861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3WN2HPYHZR;
+				INFOPLIST_FILE = CounterGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imediayala.CounterGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CounterGame.app/CounterGame";
+			};
+			name = Release;
+		};
+		C496B5981E031A65008D1861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3WN2HPYHZR;
+				INFOPLIST_FILE = CounterGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imediayala.CounterGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CounterGame;
+			};
+			name = Debug;
+		};
+		C496B5991E031A65008D1861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3WN2HPYHZR;
+				INFOPLIST_FILE = CounterGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imediayala.CounterGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CounterGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C496B55F1E031A64008D1861 /* Build configuration list for PBXProject "CounterGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C496B58F1E031A65008D1861 /* Debug */,
+				C496B5901E031A65008D1861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C496B5911E031A65008D1861 /* Build configuration list for PBXNativeTarget "CounterGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C496B5921E031A65008D1861 /* Debug */,
+				C496B5931E031A65008D1861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C496B5941E031A65008D1861 /* Build configuration list for PBXNativeTarget "CounterGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C496B5951E031A65008D1861 /* Debug */,
+				C496B5961E031A65008D1861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C496B5971E031A65008D1861 /* Build configuration list for PBXNativeTarget "CounterGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C496B5981E031A65008D1861 /* Debug */,
+				C496B5991E031A65008D1861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C496B55C1E031A64008D1861 /* Project object */;
+}
